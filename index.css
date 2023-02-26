@@ -1,0 +1,180 @@
+html {
+    scroll-behavior: smooth;
+    background-color: #000;
+    font-family: 'Tilt Neon', cursive;
+  }
+  
+  * {
+    box-sizing: border-box;
+    border-radius: 10px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  
+  .card_show {
+    opacity: 0;
+    transition: opacity 1.5s ease-in-out;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    color: #f3dc09;
+    background-image: url("pngwing.png");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    }
+
+    #back-to-top-button {
+      display: none;
+      position: fixed;
+      left: 80%;
+      top: 220px;
+    }
+
+  .hamburger-button {
+    display: grid;
+    position: relative;
+    width: 40px;
+    height: 30px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+  }
+  
+  .hamburger-line {
+    display: block;
+    width: 100%;
+    height: 3px;
+    margin: 5px 0;
+    background-color: #eccc12;
+  }
+  
+  .menu-items {
+    display: none;
+    position: absolute;
+    top: 5px;
+    left: 40px;
+    width: 100%;
+    padding: 5px;
+    margin: 5px;
+    border: 0px;
+    flex-direction: row;
+  }
+  
+  .menu-items li {
+    margin-bottom: 10px;
+    list-style: none;
+  }
+  
+  .menu-items a {
+    display: block;
+    padding: 5px;
+    color: #000;
+    text-decoration: none;
+  }
+  
+  .menu-items.show-menu {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  a:link {
+    color: #eccc12;
+  }
+  
+  a:visited{
+    color: #eccc12;
+  }
+  
+  #hero {
+    font-size: x-large;
+    display: grid;
+    place-items: center;
+    border-width: 10px;
+    border-color: #f3dc09;
+    color: #fff;
+    text-shadow: 0 -1px 4px #FFF, 0 -2px 10px #ff0, 0 -10px 20px #ff8000, 0 -18px 40px #F00;
+    text-align: center;
+    padding: 1rem;
+  }
+  
+  main {
+    margin: 1rem;
+  }
+  
+  section {
+    position: relative;
+    border: 5px solid #eccc12;
+    padding: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  h2 {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 1.2rem;
+  }
+  
+  li {
+    margin-bottom: 1rem;
+  }
+
+  #photo {
+    border: 5px solid #eccc12 ;
+  }
+
+ 
+  .listas {
+  list-style-image: url("imagenes/lista1.png");
+  text-size-adjust: 20px;
+  }
+
+  #skills {
+    display: grid;
+    position: relative;
+  }
+
+  #botones1 {
+    display: grid;
+    position: absolute;
+    top: 50px;
+    left: 700px;
+  }
+
+  #botones2 {
+    display: grid;
+    position: absolute;
+    top: 200px;
+    left: 700px;
+  }
+
+  #lang #l1 {
+    display:grid;
+    position: absolute;
+    top: 120px;
+    left: 250px;
+    border: 2px solid #eccc12;
+  }
+
+  
+  #lang #l2 {
+    display:grid;
+    position: absolute;
+    top: 275px;
+    left: 250px;
+    border: 2px solid #eccc12;
+  }
+
+  #phone{
+    position: absolute;
+    top: 60px;
+    left: 200px;
+  }
+  #mail{
+    position: absolute;
+    top: 110px;
+    left: 300px;
+  }
+  
